@@ -35,8 +35,9 @@
   border-radius: 0;
 }
 
-.marcacoes-ocultas .marcacao {
+.marcacoes-ocultas{
   /* --- Exercício 0 --- */
+  display: none;
 }
 
 
