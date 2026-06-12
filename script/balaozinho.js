@@ -6,9 +6,9 @@ let balaozinho =  doc.querySelector('#balaozinho');
 
 let marcacoes =  doc.querySelectorAll('.marcacao');
 
-function movermause(e){
-    balaozinho.style.top = e.pageX+'px';
-    balaozinho.style.left = e.pageY+'px';
+let movermause = (e) =>{
+    balaozinho.style.top = e.pageY+'px';
+    balaozinho.style.left = e.pageX+'px';
 };
 
 marcacoes.forEach(marcacao => {
